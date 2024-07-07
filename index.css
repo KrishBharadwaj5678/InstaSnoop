@@ -86,6 +86,10 @@ div.userid,div.user_name,div.user_biography,summary.user_biography_description_P
     font-size: 21.2px;
 }
 
+div.user_name,div.user_insta_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower_count,div.user_following_count,div.user_private_account,div.is_user_verified,div.user_total_post{
+    text-align: right;
+}
+
 /* Making Biography Part Stable */
 
 summary.user_biography_description_Parent,p.user_biography_description{
@@ -129,7 +133,7 @@ p.user_biography_description{
         display: block;
         margin: 23px auto;
     }
-    
+
     input.username{
         width: 83%;
         font-size: 20px;
@@ -142,7 +146,7 @@ p.user_biography_description{
     } 
 
     button.search{
-        width: 40%;
+        width: 110px;
         height: 46px;
         font-size: 19.2px;
         margin: 18px 0px 0px 0px;
@@ -197,12 +201,13 @@ p.user_biography_description{
     } 
 
     button.search{
-        height: 46px;
-        font-size: 22px;
+        height: 40px;
+        font-size: 19.2px;
+        line-height: 38px;
     }
 
     div.userid,div.user_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower,div.user_follower_count,div.user_following,div.user_following_count,div.user_insta,div.user_insta_name,div.user_private,div.user_private_account,div.user_verified,div.is_user_verified,div.user_post,div.user_total_post{
-        font-size: 20.2px;
+        font-size: 19px;
         line-height: 29px;
     }
 

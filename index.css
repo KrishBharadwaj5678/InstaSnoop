@@ -153,6 +153,10 @@ p.user_biography_description{
         width: 85%;
         margin: 20px auto;
     }
+
+    div.top-part{
+        padding: 18px 0px 0px 0px;
+    }    
     
     div.user_info1,div.user_info2,div.user_info3,div.user_info4,div.user_info5,div.user_info6,div.user_info7,div.user_info8,div.user_info9,div.user_info10{
         padding: 15px;

@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #E6ECFA;
+    font-family: sans-serif;
+}
+
+h1.head1{
+    font-size: 2.5vw;
+    margin: 4.6vw 0vw 2.3vw 8vw;
+    color: #1266D8;
+}
+
+div.main-parent{
+    width: 80vw;
+    background: #BFD7FF;
+    border-radius: 8px;
+    margin: 30px 0px 0px 110px;
+    padding: 0px 0px 10px 0px;
+}
+
+div.top-part{
+    padding: 2.2vw 0vw 1vw 0vw;
+    text-align: center;
+}
+
+input.username{
+    width: 26vw;
+    padding: 0px 0px 0px 20px;
+    outline: none;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(124, 110, 110);
+}
+
+input.username::placeholder{
+    font-size: 15px;
+}
+
+button.search{
+    width: 100px;
+    height: 39px;
+    border-radius: 25px;
+    font-size: 17.3px;
+    background: linear-gradient(to right,#0B61D6,#4189EA);
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 0vw 0vw 0vw 0.7vw;
+}
+
+div.basic-information{
+    display: block;
+    margin: 10px auto;
+    border: 1px solid gray;
+    width: 44%;
+    background: #25C095;
+    border-radius: 7px;
+}
+
+/* Basic User Information  */
+
+div.user_info1,div.user_info2,div.user_info3,div.user_info4,div.user_info5,div.user_info6,div.user_info7,div.user_info8,div.user_info9,div.user_info10{
+    border-bottom: 2px solid whitesmoke;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.user_info8{
+    border-bottom: none;
+}
+
+/* User Id,User Name */
+
+div.userid,div.user_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower,div.user_follower_count,div.user_following,div.user_following_count,div.user_insta,div.user_insta_name,div.user_private,div.user_private_account,div.user_verified,div.is_user_verified,div.user_post,div.user_total_post{
+    color: white;
+    font-size: 21.2px;
+}
+
+/* Making Biography Part Stable */
+
+summary.user_biography_description_Parent,p.user_biography_description{
+    padding: 0px 0px 0px 100px;
+    line-height: 24px;
+}
+
+/* Profile Picture */
+
+div.user_info2{
+    align-items: center;
+}
+
+img.user_photo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+/* User Biography */
+
+p.user_biography_description{
+    color: white;
+    font-size: 18px;
+    margin: 10px 0px 0px 0px;
+}
+
+/* Media Queries b/w 320px and  420px*/
+
+@media (320px <= width <= 420px){
+
+    h1.head1{
+        font-size: 27px;
+        text-align: center;
+        line-height: 35px;
+        margin: 60px 0px 0px 0px;
+    }
+
+    div.main-parent{
+        width: 90%;
+        display: block;
+        margin: 23px auto;
+    }
+    
+    input.username{
+        width: 83%;
+        font-size: 20px;
+        height: 46px;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    input.username::placeholder{
+        font-size: 17px;
+    } 
+
+    button.search{
+        width: 40%;
+        height: 46px;
+        font-size: 19.2px;
+        margin: 18px 0px 0px 0px;
+        line-height: 46px;
+    }
+
+    div.basic-information{
+        width: 85%;
+        margin: 20px auto;
+    }
+    
+    div.user_info1,div.user_info2,div.user_info3,div.user_info4,div.user_info5,div.user_info6,div.user_info7,div.user_info8,div.user_info9,div.user_info10{
+        padding: 15px;
+    }
+
+    div.userid,div.user_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower,div.user_follower_count,div.user_following,div.user_following_count,div.user_insta,div.user_insta_name,div.user_private,div.user_private_account,div.user_verified,div.is_user_verified,div.user_post,div.user_total_post{
+        color: white;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    div.user_joined_instagram,div.user_insta_name{
+        text-align: right;
+    }
+
+    summary.user_biography_description_Parent,p.user_biography_description{
+        padding: 0px 0px 0px 25px;
+        line-height: 26px;
+    }
+
+    img.user_photo{
+        width: 80px;
+        height: 80px;
+    } 
+}
+
+/* Extra Media Queries b/w 355px and  420px*/
+
+@media (355px <= width <= 420px){
+
+    h1.head1{
+        margin: 30px 0px 0px 0px;
+        padding: 0px 15px;
+    }
+
+    input.username::placeholder{
+        font-size: 19px;
+    } 
+
+    button.search{
+        height: 46px;
+        font-size: 19.9px;
+    }
+
+    div.userid,div.user_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower,div.user_follower_count,div.user_following,div.user_following_count,div.user_insta,div.user_insta_name,div.user_private,div.user_private_account,div.user_verified,div.is_user_verified,div.user_post,div.user_total_post{
+        font-size: 20.2px;
+        line-height: 29px;
+    }
+
+    p.user_biography_description{
+       font-size: 20.2px;
+       line-height: 31px;
+    }
+}
+
+/* Media Queries b/w 400px and 1200px*/
+
+ @media (400px <= width <= 1200px){
+
+    h1.head1{
+        margin: 10vw 0vw 0vw 0vw;
+        font-size: 7.7vw;
+        line-height: 9.9vw;
+        text-align: center;
+    }
+    
+    div.main-parent{
+        width: 90vw;
+        padding: 0vw 0vw 3vw 0vw; 
+        margin: 8vw 0vw 0vw 5vw;
+        border-radius: 2vw;
+    }
+    
+    div.top-part{
+        padding: 6vw 0vw 7vw 0vw;
+    }
+    
+    input.username{
+        width: 50vw;
+        height: 11vw;
+        font-size: 4.7vw;
+        border-radius: 1.1vw;
+    }
+    
+    input.username::placeholder{
+        font-size: 4.3vw;
+    }
+    
+    button.search{
+        width: 23vw;
+        height: 10.8vw;
+        border-radius: 1.2vw;
+        font-size: 4.7vw;
+        margin: 0vw 0vw 0vw 2vw;
+    }
+    
+    div.basic-information{
+        margin: 1vw auto;
+        width: 80vw;
+        border-radius: 1.2vw;
+    }
+    
+    div.user_info1,div.user_info2,div.user_info3,div.user_info4,div.user_info5,div.user_info6,div.user_info7,div.user_info8,div.user_info9,div.user_info10{
+        padding: 4.3vw 3vw;
+    }
+    
+    div.userid,div.user_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower,div.user_follower_count,div.user_following,div.user_following_count,div.user_insta,div.user_insta_name,div.user_private,div.user_private_account,div.user_verified,div.is_user_verified,div.user_post,div.user_total_post{
+        font-size: 5.42vw;
+    }
+    
+    summary.user_biography_description_Parent,p.user_biography_description{
+        padding: 0vw 0vw 0vw 11vw;
+        line-height: 8.3vw;
+    }
+
+    img.user_photo{
+        width: 23vw;
+        height: 23vw;
+    }
+    
+    p.user_biography_description{
+        font-size: 5.2vw;
+        margin: 2vw 0vw 0vw 0vw;
+    } 
+}  
+
+/* Extra Media Queries b/w 601px and 1200px*/
+
+ @media (601px <= width <= 1200px){
+
+    div.top-part{
+        padding: 7vw 0vw 6vw 0vw;
+    }
+    
+    input.username{
+        padding: 0vw 0vw 0vw 4vw;
+    }
+    
+    div.userid,div.user_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower,div.user_follower_count,div.user_following,div.user_following_count,div.user_insta,div.user_insta_name,div.user_private,div.user_private_account,div.user_verified,div.is_user_verified,div.user_post,div.user_total_post{
+        font-size: 5.2vw;
+    }
+    
+    summary.user_biography_description_Parent,p.user_biography_description{
+        padding: 0vw 0vw 0vw 15vw;
+        line-height: 8vw;
+    }
+}  
+
+/* Media Queries b/w 1201px and 1800px*/
+
+@media (1201px <= width <= 1800px){
+
+    h1.head1{
+        font-size: 2.9vw;
+        margin: 4.6vw 0vw 2.3vw 8vw;
+    }
+    
+    div.main-parent{
+        width: 80vw;
+        margin: 3.2vw 0vw 0vw 8vw;
+    }
+    
+    input.username{
+        width: 26vw;
+        height: 3.2vw;
+        font-size: 1.2vw;
+    }
+    
+    input.username::placeholder{
+        font-size: 1.2vw;
+    }
+    
+    button.search{
+        width: 8.1vw;
+        height: 3.2vw;
+        font-size: 1.5vw;
+        margin: 0vw 0vw 0vw 1vw;
+    }
+    
+    div.basic-information{
+        margin: 20px auto;
+    }
+    
+    div.user_info1,div.user_info2,div.user_info3,div.user_info4,div.user_info5,div.user_info6,div.user_info7,div.user_info8,div.user_info9,div.user_info10{
+        padding: 18px 25px;
+    }
+        
+    div.userid,div.user_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower,div.user_follower_count,div.user_following,div.user_following_count,div.user_insta,div.user_insta_name,div.user_private,div.user_private_account,div.user_verified,div.is_user_verified,div.user_post,div.user_total_post{
+        font-size: 1.6vw;
+    
+    }
+
+    summary.user_biography_description_Parent,p.user_biography_description{
+        padding: 0vw 0vw 0vw 9vw;
+        line-height: 2vw;
+    }
+    
+    img.user_photo{
+        width: 6.4vw;
+        height: 6.4vw;
+    }
+    
+    p.user_biography_description{
+        font-size: 1.4vw;
+        margin: 0.8vw 0vw 0vw 0vw;
+    }
+}  

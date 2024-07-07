@@ -32,7 +32,7 @@ div.top-part{
 
 input.username{
     width: 26vw;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 20px 0px 20px;
     outline: none;
     height: 38px;
     font-size: 15px;
@@ -194,6 +194,11 @@ p.user_biography_description{
     h1.head1{
         margin: 30px 0px 0px 0px;
         padding: 0px 15px;
+    }
+
+    input.username{
+        /* font-size: 20px; */
+        height: 40px;
     }
 
     input.username::placeholder{

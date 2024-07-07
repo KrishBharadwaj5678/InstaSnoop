@@ -133,7 +133,7 @@ p.user_biography_description{
     input.username{
         width: 83%;
         font-size: 20px;
-        height: 46px;
+        height: 43px;
         margin: 10px 0px 0px 0px;
     }
     
@@ -194,7 +194,7 @@ p.user_biography_description{
 
     button.search{
         height: 46px;
-        font-size: 19.9px;
+        font-size: 22px;
     }
 
     div.userid,div.user_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower,div.user_follower_count,div.user_following,div.user_following_count,div.user_insta,div.user_insta_name,div.user_private,div.user_private_account,div.user_verified,div.is_user_verified,div.user_post,div.user_total_post{

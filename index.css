@@ -86,7 +86,7 @@ div.userid,div.user_name,div.user_biography,summary.user_biography_description_P
     font-size: 21.2px;
 }
 
-div.user_name,div.user_insta_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower_count,div.user_following_count,div.user_private_account,div.is_user_verified,div.user_total_post{
+div.user_name,div.user_insta_name,div.user_biography,summary.user_biography_description_Parent,div.user_follower_count,div.user_following_count,div.user_private_account,div.is_user_verified,div.user_total_post,p.user_biography_description{
     text-align: right;
 }
 
@@ -368,4 +368,4 @@ p.user_biography_description{
         font-size: 1.4vw;
         margin: 0.8vw 0vw 0vw 0vw;
     }
-}  
+} 

@@ -4,6 +4,15 @@
 
 ---
 
+## ✨ Features
+
+* 🔍 **Search Profiles**: Quickly search and display any public Instagram profile by username.
+* 👥 **Follower Count**: See followers and following numbers.
+* 📝 **User Bio**: Display bio, profile image, and check if the profile is verified.
+* 🎞 **Smooth Animations**: GSAP-powered transitions for a polished UI.
+
+---
+
 ## 🛠 Tech Stack
 
 | Technology                              | Role / Purpose                         |
@@ -12,15 +21,6 @@
 | **CSS3**                                | Styling, layout, and responsive design |
 | **JavaScript (Vanilla)**                | Core logic and interactivity           |
 | **GSAP (GreenSock)** | Smooth animations and transitions      |
-
----
-
-## ✨ Features
-
-* 🔍 Search and display public Instagram profiles
-* 📸 Fetch and visualize posts, follower count, bio, etc.
-* 📊 Interactive UI for activity and engagement analysis
-* 🎞 Smooth transitions and hover effects via GSAP
 
 ---
 

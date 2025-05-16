@@ -1,6 +1,6 @@
 # 📸 InstaSnoop
 
-**InstaSnoop** is a lightweight, front-end tool that allows users to visually explore and analyze public Instagram profiles. Built using **HTML**, **CSS**, **JavaScript**, and **GSAP**, this app creates an intuitive, animated UI for displaying Instagram profile data and activity.
+**InstaSnoop** is a lightweight, front-end tool that allows users to visually explore and analyze public Instagram profiles. 
 
 ---
 
@@ -29,8 +29,8 @@
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/yourusername/instasnoop.git
-cd instasnoop
+git clone https://github.com/KrishBharadwaj5678/InstaSnoop.git
+cd InstaSnoop
 ```
 
 2. **Open in Browser**

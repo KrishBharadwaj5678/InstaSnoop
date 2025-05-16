@@ -1,6 +1,6 @@
 # 🕵️‍♂️ InstaSnoop
 
-**InstaSnoop** is a lightweight, front end tool that allows users to visually explore and analyze public Instagram profiles. 🔍
+**InstaSnoop** is a lightweight, front end tool that allows users to visually explore and analyze public Instagram profiles. 
 
 ---
 
@@ -59,11 +59,7 @@ We welcome contributions!
 
 4. **Make Changes** ✨
 
-* Make your changes or additions to the codebase (e.g., fixing bugs, adding features, updating the UI).
-
 5. **Commit Your Changes** ✅
-
-* After making changes, commit them with a clear and concise commit message:
 
   ```bash
   git add .
@@ -72,15 +68,10 @@ We welcome contributions!
 
 6. **Push to Your Fork** ⬆️
 
-* Push your changes to your forked repository:
-
   ```bash
   git push origin your-feature-branch
   ```
 
 7. **Create a Pull Request (PR)** 🔄
-
-* Go to the original **InstaSnoop** repository and create a pull request (PR) from your branch.
-* Provide a clear description of the changes you've made.
 
 8. **Review & Merge** 🎉

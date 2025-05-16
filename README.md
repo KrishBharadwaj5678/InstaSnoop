@@ -1,6 +1,6 @@
-# 📸 InstaSnoop
+# 🕵️‍♂️ InstaSnoop
 
-**InstaSnoop** is a lightweight, front-end tool that allows users to visually explore and analyze public Instagram profiles. 
+**InstaSnoop** is a lightweight, front-end tool that allows users to visually explore and analyze public Instagram profiles. 🔍
 
 ---
 

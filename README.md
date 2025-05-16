@@ -9,7 +9,7 @@
 * 🔍 **Search Profiles**: Quickly search and display any public Instagram profile by username.
 * 👥 **Follower Count**: See followers and following numbers.
 * 📝 **User Bio**: Display bio, profile image, and check if the profile is verified.
-* 🎞 **Smooth Animations**: GSAP-powered transitions for a polished UI.
+* 🎞 **Smooth Animations**: GSAP powered transitions for a polished UI.
 
 ---
 
@@ -46,8 +46,6 @@ We welcome contributions!
 ### 1. **Fork the Repository** 🍴
 
 ### 2. **Clone Your Fork** 💻
-
-* Clone the repository to your local machine using the following command:
 
   ```bash
   git clone https://github.com/KrishBharadwaj5678/InstaSnoop.git

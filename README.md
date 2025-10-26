@@ -2,25 +2,29 @@
 
 **InstaSnoop** is a lightweight, front end tool that allows users to visually explore and analyze public Instagram profiles. 
 
+![InstaSnoop](https://github.com/KrishBharadwaj5678/InstaSnoop/raw/main/InstaSnoopDemo.png)
+
 ---
 
 ## ✨ Features
 
-* 🔍 **Search Profiles**: Quickly search and display any public Instagram profile by username.
-* 👥 **Follower Count**: See followers and following numbers.
-* 📝 **User Bio**: Display bio, profile image, and check if the profile is verified.
-* 🎞 **Smooth Animations**: GSAP powered transitions for a polished UI.
+| Feature                  | Description                                                          |
+| :----------------------- | :------------------------------------------------------------------- |
+| 🔍 **Search Profiles**   | Quickly search and display any public Instagram profile by username. |
+| 👥 **Follower Count**    | View the number of followers and following for each profile.         |
+| 📝 **User Bio**          | Display bio, profile picture, and verification status of the user.   |
+| 🎞 **Smooth Animations** | Enjoy polished transitions powered by GSAP for a seamless UI.        |
 
 ---
 
 ## 🛠 Tech Stack
 
-| Technology                              | Purpose                         |
-| --------------------------------------- | -------------------------------------- |
-| **HTML5**                               | Structure of the web pages             |
-| **CSS3**                                | Styling, layout, and responsive design |
-| **JavaScript (Vanilla)**                | Core logic and interactivity           |
-| **GSAP (GreenSock)** | Smooth animations and transitions      |
+| Technology                 | Purpose                                |
+| :------------------------- | :------------------------------------- |
+| 🌐 **HTML5**               | Structure of the web pages             |
+| 🎨 **CSS3**                | Styling, layout, and responsive design |
+| ⚡ **JavaScript (Vanilla)** | Core logic and interactivity           |
+| 🎞 **GSAP (GreenSock)**    | Smooth animations and transitions      |
 
 ---
 
